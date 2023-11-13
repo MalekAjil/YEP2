@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:id="@+id/lan"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="اللغة الانكليزية"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:textColor="@color/black">
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sld_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:value="3"
+            android:valueFrom="1"
+            android:valueTo="5"
+            android:stepSize="1"
+            app:labelBehavior="floating">
+
+        </com.google.android.material.slider.Slider>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:text="ضعيف جداّ"
+                >
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:text="ضعيفّ">
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:text="مقبول"
+                android:paddingRight="10dp">
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:text="جيدّ"
+                android:gravity="center"
+                >
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:text="جيد جداّ"
+                android:gravity="left">
+            </com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+
+         <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="أدخل لغة ثانية"
+             app:startIconDrawable="@drawable/ic_language1"
+            android:layoutDirection="rtl"
+             android:layout_marginTop="50dp"
+            android:textDirection="rtl"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/txt_lan2"
+            android:inputType="text"
+            />    </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.slider.Slider
+              android:id="@+id/sld_lan2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:layout_marginBottom="2dp"
+              android:value="3"
+              android:valueFrom="1"
+              android:valueTo="5"
+              android:stepSize="1"
+              app:labelBehavior="floating">
+
+          </com.google.android.material.slider.Slider>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:weightSum="5"
+              android:textDirection="rtl"
+              android:layoutDirection="rtl"
+              >
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textDirection="rtl"
+                  android:layoutDirection="rtl"
+                  android:text="ضعيف جداّ"
+                  >
+              </com.google.android.material.textview.MaterialTextView>
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textDirection="rtl"
+                  android:layoutDirection="rtl"
+                  android:text="ضعيفّ">
+              </com.google.android.material.textview.MaterialTextView>
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textDirection="rtl"
+                  android:layoutDirection="rtl"
+                  android:text="مقبول"
+                  android:paddingRight="10dp">
+              </com.google.android.material.textview.MaterialTextView>
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textDirection="rtl"
+                  android:layoutDirection="rtl"
+                  android:text="جيدّ"
+                  android:gravity="center"
+                  >
+              </com.google.android.material.textview.MaterialTextView>
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textDirection="rtl"
+                  android:layoutDirection="rtl"
+                  android:text="جيد جداّ"
+                  android:gravity="left">
+              </com.google.android.material.textview.MaterialTextView>
+          </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="#FFFFFF"
+        app:icon="@drawable/next"
+        app:iconTint="#FFFFFF"
+        android:text="التالي"/>
+
+</RelativeLayout>

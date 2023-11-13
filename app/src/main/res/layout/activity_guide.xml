@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".ui.Activity.GuideActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tab"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:paddingRight="4dp"/>
+    <FrameLayout
+        android:id="@+id/container_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtView"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_height="match_parent"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_below="@id/txtView"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tab"
+        app:tabIndicatorColor="@color/dateColor"
+        app:tabIconTint="@color/tabUnselected"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_height="wrap_content"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:text="تقدم للمركز"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:icon="@drawable/ic_resume" />
+
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/circle_constraint">
+    <ImageButton
+        android:id="@+id/IB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/layer1"
+        android:contentDescription="@string/todo"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />string
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="التوجيه المهني"
+        android:background="@drawable/tw_circle1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:paddingRight="27dp"
+        android:text="فرص العمل"
+        android:textColor="@color/white"
+        android:background="@drawable/tw_circle2"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:textColor="@color/white"
+
+        android:text="خدمات"
+        android:background="@drawable/tw_circle3"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:text="ريادة الأعمال"
+        android:paddingLeft="20dp"
+
+        android:background="@drawable/tw_circle4"
+        tools:ignore="MissingConstraints,RtlCompat"
+         />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="التعليم المستمر"
+        android:background="@drawable/tw_circle5"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/BTs1"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@drawable/circle1"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <ImageView
+        android:id="@+id/BTs2"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@drawable/circle2"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/BTs3"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@drawable/circle3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/BTs4"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@drawable/circle4"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/BTs5"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@drawable/circle5"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

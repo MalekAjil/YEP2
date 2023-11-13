@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="الرئيسية"
+            />
+        <item
+            android:id="@+id/nav_learning"
+            android:icon="@drawable/ic_book"
+            android:title="التعليم المستمر" />
+        <item
+            android:id="@+id/nav_traingin"
+            android:icon="@drawable/ic_work"
+            android:title="التوجيه المهني" />
+        <item
+            android:id="@+id/nav_sup"
+            android:icon="@drawable/ic_about"
+            android:title="دعم المشاريع الصغيرة" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_baseline_business"
+            android:title="ريادة الأعمال" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@drawable/ic_baseline_emoji_objects_24"
+            android:title="فرص العمل"></item>
+    </group>
+</menu>

@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">مركز تمكين الشباب</string>
+    <string name="version">1.0</string>
+    <string name="main">الرئيسية</string>
+    <string name="course">الدورات</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="default_notification_channel_id">AnyData</string>
+    <string name="channel_name">News</string>
+    <string name="channel_description">Latest News</string>
+    <string name="courses">الدورات</string>
+    <string name="job_guid">التوجيه المهني والإرشاد الوظيفي</string>
+    <string name="job_practice"> التدريب المهني والتعليم المستمر</string>
+    <string name="job_support">دعم ريادة الأعمال</string>
+
+    <string name="notes">ملاحظات</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="more_info">معلومات إضافية</string>
+    <string name="fill_Field">الرجاء ملء هذا الحقل</string>
+
+    <string name="intro">يرجى مراعاة الدقة والخصوصية في ملء هذه الاستمارة والانتباه لملء الحقول لأن ذلك يلعب دوراً في التقييم</string>
+    <string name="full_name_ar">الاسم الثلاثي بالعربي</string>
+    <string name="full_name_en">الاسم الثلاثي بالانكليزي</string>
+    <string name="national_number">الرقم الوطني</string>
+    <string name="identity_num">رقم البطاقة الشخصية</string>
+    <string name="birth_place">مكان الولادة</string>
+    <string name="birth_date">تاريخ الولادة</string>
+    <string name="place">القيد</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="social_statue">الحالة الاجتماعية</string>
+    <string name="single">عازب/ة</string>
+    <string name="married">متزوج/ة</string>
+    <string name="divorced">مطلق/ة</string>
+    <string name="widower">أرمل/ة</string>
+    <string name="disability">هل هناك إعاقة؟</string>
+    <string name="type">نوعها</string>
+    <string name="mobility">حركية</string>
+    <string name="intellectual">عقلية</string>
+    <string name="hearing">سمعية</string>
+    <string name="vision">بصرية</string>
+    <string name="other">أخرى</string>
+    <string name="father_name">اسم الأب</string>
+    <string name="father_job">عمل الأب</string>
+    <string name="father_age">عمر الأب</string>
+    <string name="mother_name">اسم الأم</string>
+    <string name="mother_job">عمل الأم</string>
+    <string name="mother_age">عمر الأم</string>
+    <string name="family_num">عدد أفراد العائلة</string>
+    <string name="are_you">هل أنت</string>
+    <string name="martyrs_families">من ذوي الشهداء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="displaced">مهجر</string>
+    <string name="resident">مقيم</string>
+    <string name="returning">عائد</string>
+    <string name="military_service">الخدمة الإلزامية</string>
+    <string name="postponed">مؤجل</string>
+    <string name="finished">مسرّح</string>
+    <string name="always_alone">وحيد نهائي</string>
+    <string name="temporary_alone">وحيد مؤقت</string>
+    <string name="exempt">معفى</string>
+    <string name="how_know">كيف علمت بالمركز؟</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="mobile">رقم الخليوي</string>
+    <string name="whatsaap_num">رقم الواتس آب</string>
+    <string name="facebook_account">حساب الفيس بوك</string>
+    <string name="Email">البريد الالكتروني (Email)</string>
+    <string name="current_residence">السكن الحالي</string>
+    <string name="city">المدينة</string>
+    <string name="area">المنطقة</string>
+    <string name="town">الناحية</string>
+    <string name="address">العنوان</string>
+    <string name="educational">التحصيل العلمي الحالي</string>
+    <string name="illiterate">أمي</string>
+    <string name="primary">ابتدائي</string>
+    <string name="preparatory">إعدادي</string>
+    <string name="secondary">ثانوي</string>
+    <string name="institute">معهد</string>
+    <string name="bachelor">جامعي</string>
+    <string name="advanced_studies">دراسات عليا</string>
+    <string name="specialization">الاختصاص</string>
+    <string name="last_certificate">تاريخ آخر شهادة</string>
+    <string name="study_year">السنة الدراسية</string>
+    <string name="courses_attendance">الدورات التدريبية التي التحقت بها</string>
+    <string name="course_name">اسم التدريب</string>
+    <string name="course_entity">جهة التدريب</string>
+    <string name="course_date">تاريخ التدريب</string>
+    <string name="course_period">المدة</string>
+    <string name="course_certificate">هل حصلت على شهادة تدريب</string>
+
+
+    <string name="choose_center">اختر المركز</string>
+    <string name="aleppo">حلب</string>
+    <string name="damascus">دمشق</string>
+    <string name="hama">حماة</string>
+    <string name="latakia">اللاذقية</string>
+    <string name="tartous">طرطوس</string>
+    <string name="suwayda">السويداء</string>
+    <string name="deer_alzour">دير الزور</string>
+    <string name="hasakah">الحسكة</string>
+    <string name="continue_learnig">تعليم مستمر</string>
+    <string name="last">الاحدث</string>
+    <string name="train">"تدريب مهني "</string>
+    <string name="work">ريادة اعمال</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="todo" />
+
+    <string name="opencv"> تقدم للدورة</string>
+
+    <string name="VocationalEducation">التعليم المهني</string>
+    <string name="continuousEducation">التعليم المستمر</string>
+    <string name="myaccount">ريادة الاعمال</string>
+
+    <string name="whatsApp_num">رقم الواتس آب</string>
+
+    <string name="training_name">اسم التدريب</string>
+    <string name="training_company">الجهة المانحة</string>
+    <string name="training_date">التاريخ</string>
+    <string name="training_duration">عدد ساعات التدريب</string>
+    <string name="training_certificate">هل حصلت على شهادة التدريب؟</string>
+    <string name="Add_training">إضافة</string>
+    <string name="cancel_training">إلغاء</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+</resources>

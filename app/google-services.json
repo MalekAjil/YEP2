@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50565813253",
+    "project_id": "yep-aleppo",
+    "storage_bucket": "yep-aleppo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50565813253:android:49f3af0f578f14c4d7b86c",
+        "android_client_info": {
+          "package_name": "com.undp.yep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50565813253-03kss9v4ceaeitqvre83rablcmng4h3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwCizejkHrsY3JvzjBCWcn2y-mSO6JEz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50565813253-03kss9v4ceaeitqvre83rablcmng4h3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

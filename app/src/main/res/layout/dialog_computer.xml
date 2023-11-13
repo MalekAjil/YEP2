@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أدخل اسم البرنامج"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        app:errorEnabled="true"
+        app:helperText="*مطلوب"
+        app:helperTextTextColor="#FF0000"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name"
+        android:inputType="text"
+
+        /> </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أدخل درجة الاتقان"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        app:suffixText="%"
+        app:suffixTextColor="@color/black"
+        app:helperText="*مطلوب"
+        app:errorEnabled="true"
+        app:helperTextTextColor="#FF0000"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_percent"
+        android:inputType="number"
+        android:maxLength="3"
+
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_add"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="موافق">
+
+    </Button>
+
+</LinearLayout>

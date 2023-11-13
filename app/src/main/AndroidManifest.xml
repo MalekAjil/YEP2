@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.undp.aep">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/splash_01"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_01"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AEP">
+        <activity android:name=".ui.Activity.Form2.Data_input_5" android:exported="false" android:label="اللغات الاجنبية"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_6" android:exported="false" android:label="خبرات الحاسوب"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_7" android:exported="false" android:label="الهدف والطموح"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_8" android:exported="false" android:label="انتسابك للمركز"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_9" android:exported="false" android:label="عمل بوظيفة"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_10" android:exported="false" android:label="العمل الخاص او               المهنة"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_11" android:exported="false" android:label="نقاط القوة والضعف"/>
+        <activity android:name=".ui.Activity.Form2.Data_input_5_1" android:exported="false" android:label="المهارات"/>
+        <activity android:name=".ui.Activity.Form2.FinalForm" android:exported="false" android:label="ارسال الاستمارة"/>
+
+        <activity android:name=".ui.Activity.Form1.Data_Input_1" android:exported="false" android:label="المحافظة"/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_2" android:exported="false" android:label="البيانات الشخصية"/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_3" android:exported="false" android:label="الحالة الجسدية"/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_4" android:exported="false" android:label="معلومات الوالدين"/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_7" android:exported="false" android:label="التدريبات "/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_6" android:exported="false" android:label="تفاصيل السكن والشهادة"/>
+        <activity android:name=".ui.Activity.Form1.Data_Input_5" android:exported="false" android:label="معلومات التواصل"/>
+        <activity android:name=".ui.Activity.Learn.HomeActivity2" />
+        <activity android:name=".ui.Activity.Learn.DetailsActivity" />
+        <activity android:name=".ui.Activity.Guide.DetailsActivity" />
+        <activity android:name=".ui.Activity.Guide.GuideActivity" />
+        <activity
+            android:name=".ui.Activity.Start.MainActivity"
+            android:theme="@style/Theme.AEP.NoActionBar" />
+        <activity android:name=".ui.Activity.Start.MainActivity1" />
+        <activity android:name=".ui.Activity.Start.MainActivity2" />
+        <activity android:name=".ui.Activity.Start.MainActivity3" />
+        <activity android:name=".ui.Activity.Start.SecondSS" />
+        <activity
+            android:name=".ui.Activity.Start.secondActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Activity.Start.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AEP.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/call" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/red" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+    </application>
+
+</manifest>

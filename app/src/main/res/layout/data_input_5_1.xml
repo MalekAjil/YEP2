@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:id="@+id/lan"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.undp.aep.ui.Activity.Data_input_5">
+    <ScrollView
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مهارة (1):"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black">
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="أدخل مهارة شخصية"
+                app:startIconDrawable="@drawable/ic_light"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/txt_skill1"
+                    android:inputType="text"
+                    /></com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مهارة (2):"
+                android:layout_marginTop="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_below="@+id/txt_skill1"
+                android:textColor="@color/black">
+            </com.google.android.material.textview.MaterialTextView>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:startIconDrawable="@drawable/ic_light"
+                android:hint="أدخل مهارة شخصية"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txt_skill2"
+                    android:id="@+id/txt_skill2"
+                    android:inputType="text"
+                    /></com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp"
+            android:layout_alignParentRight="true"
+            app:switchPadding="150dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/sw_skill3"
+            android:checked="false"
+            android:text="هل تمتلك شهادة قيادة مركبة آلية؟"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_license1"
+            android:layout_below="@+id/sw_skill3"
+            android:visibility="gone"
+
+
+            ></com.google.android.material.textview.MaterialTextView>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_license2"
+            android:layout_below="@+id/sw_skill3"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            >
+
+
+        </com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+    </ScrollView>
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/fab_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/purple_700"
+                android:textColor="#FFFFFF"
+                app:icon="@drawable/next"
+                app:iconTint="#FFFFFF"
+                android:text="التالي"/>
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="10dp"
+    tools:context="com.undp.aep.ui.Activity.Data_input_9">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:textColor="@color/black"
+        android:text="هل سبق لك أن عملت بوظيفة ؟"
+        android:id="@+id/temp"
+        android:gravity="center">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <ListView
+    android:id="@+id/lst_jobs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/temp"
+    android:padding="10dp"
+    android:layout_above="@+id/fab_next"
+    >
+    </ListView>
+
+<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+android:id="@+id/fab_next"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+android:backgroundTint="@color/purple_700"
+android:textColor="#FFFFFF"
+app:icon="@drawable/next"
+app:iconTint="#FFFFFF"
+android:text="التالي"/>
+<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+android:id="@+id/fab_add"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:backgroundTint="#B5E8FF"
+android:textColor="#000000"
+app:icon="@drawable/ic_add1"
+    />
+
+</RelativeLayout>

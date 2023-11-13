@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    >
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/add_training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:icon="@drawable/ic_add1"
+        app:iconTint="@color/white"
+        android:backgroundTint="@color/purple_700"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        app:icon="@drawable/next"
+        app:iconTint="#FFFFFF"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:tint="@color/white"
+        app:backgroundTint="@color/purple_700"
+        app:elevation="3dp"
+        app:fabSize="normal"
+        app:tint="@color/white" />
+
+    <ListView
+        android:id="@+id/lst_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

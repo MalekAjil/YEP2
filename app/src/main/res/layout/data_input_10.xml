@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    android:padding="10dp"
+   >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:orientation="vertical"
+        android:id="@id/temp"
+        android:layout_marginBottom="10dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هل سبق أن أسست عملاَ خاص بك أو أي مشروع صغير بنفسك ؟"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black">
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sw_privateBusiness"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:checked="false">
+
+        </com.google.android.material.switchmaterial.SwitchMaterial>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:weightSum="20"
+            android:layout_below="@+id/sw_privateBusiness"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:hint="نعم؟ تحدث عن إنجازاتك"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="150dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:enabled="false"
+                    android:gravity="top|right"
+                    android:id="@+id/txt_yes"
+                    android:inputType="text"
+                    /></com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:hint="لا؟ ... لماذا؟"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:layout_weight="10"
+                android:layout_below="@+id/sw_privateBusiness"
+                android:layout_height="150dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_weight="10"
+
+                   android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                     android:id="@+id/txt_no"
+                    android:gravity="top|right"
+                    android:inputType="text"
+                    /></com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:orientation="vertical"
+        android:layout_below="@+id/temp"
+        android:layout_marginTop="50dp">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp"
+        android:text="هل تمتلك مهنة/حرفة ؟"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black">
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw_profession"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:checked="false">
+
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:padding="10dp"
+        android:weightSum="20"
+        android:layout_below="@+id/sw_profession"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="نعم؟ تحدث عنها وعن درجة مهارتك"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="150dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:gravity="top|right"
+                android:id="@+id/txt_do"
+                android:inputType="text"
+                /></com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:hint="لا؟لماذا ترغب باكتساب مهنة؟"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:layout_weight="10"
+            android:layout_height="150dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_weight="10"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:id="@+id/txt_dont"
+                android:gravity="top|right"
+                android:inputType="text"
+                /></com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="التالي"
+        android:textColor="#FFFFFF"
+        app:icon="@drawable/next"
+        app:iconTint="#FFFFFF" />
+
+</RelativeLayout>

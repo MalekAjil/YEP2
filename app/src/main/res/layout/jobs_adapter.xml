@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:layout_margin="15dp"
+    android:elevation="20dp"
+    android:backgroundTint="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_work"
+                android:padding="5dp"
+                android:scaleType="fitXY"></ImageView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="42dp"
+                android:id="@+id/jobName"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="42dp"
+                    android:id="@+id/companyName"/>
+
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:backgroundTint="@color/black">
+
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="42dp"
+                    android:id="@+id/jobPeriodFrom"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="42dp"
+                    android:id="@+id/jobPeriodTo"
+                    android:inputType="date"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:backgroundTint="@color/black">
+
+            </View>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginRight="47dp"
+                android:id="@+id/leaveReasons"/>
+
+        </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
